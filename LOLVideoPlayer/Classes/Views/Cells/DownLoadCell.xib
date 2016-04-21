@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="99" id="KGk-i7-Jjw" customClass="DownLoadCell">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="463" height="98.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iRu-gB-69X">
+                        <rect key="frame" x="8" y="11" width="77" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="77" id="39O-RG-L6h"/>
+                            <constraint firstAttribute="height" constant="75" id="Sq3-vY-BgT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Q-Wl-Aes">
+                        <rect key="frame" x="87" y="27" width="55" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="9mD-8m-q3A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Aok-yI-Vjl">
+                        <rect key="frame" x="97" y="70" width="269" height="2"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="fhz-bl-WMc"/>
+                        </constraints>
+                    </progressView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTK-oz-NMh">
+                        <rect key="frame" x="392" y="34" width="50" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ZS9-Y9-Ldg"/>
+                            <constraint firstAttribute="width" constant="50" id="eQZ-23-eDE"/>
+                        </constraints>
+                        <state key="normal" title="删除">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Aok-yI-Vjl" secondAttribute="trailing" constant="97" id="6v8-hE-utF"/>
+                    <constraint firstItem="T0Q-Wl-Aes" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="27" id="QAH-dR-FF2"/>
+                    <constraint firstItem="T0Q-Wl-Aes" firstAttribute="leading" secondItem="iRu-gB-69X" secondAttribute="trailing" constant="2" id="RKO-mV-a77"/>
+                    <constraint firstAttribute="bottom" secondItem="VTK-oz-NMh" secondAttribute="bottom" constant="34" id="RYs-02-3vp"/>
+                    <constraint firstItem="iRu-gB-69X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="eaR-76-Akt"/>
+                    <constraint firstItem="Aok-yI-Vjl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="97" id="f25-Z0-lq6"/>
+                    <constraint firstItem="iRu-gB-69X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="k2O-a7-iF0"/>
+                    <constraint firstAttribute="trailing" secondItem="VTK-oz-NMh" secondAttribute="trailing" constant="21" id="m6U-wf-oaF"/>
+                    <constraint firstAttribute="bottom" secondItem="Aok-yI-Vjl" secondAttribute="bottom" constant="26" id="yl2-Nn-SeZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="T0Q-Wl-Aes" id="iT5-Hs-lY0"/>
+                <outlet property="picImageView" destination="iRu-gB-69X" id="2YO-0n-wUT"/>
+                <outlet property="progressView" destination="Aok-yI-Vjl" id="wnZ-Od-3DA"/>
+                <outlet property="startAndStop" destination="VTK-oz-NMh" id="MFJ-Wo-cp7"/>
+            </connections>
+            <point key="canvasLocation" x="452.5" y="412.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,73 @@
+//
+//  UrlString.pch
+//  LOLVideoPlayer
+//
+//  Created by lanou3g on 16/3/1.
+//  Copyright © 2016年 Henry. All rights reserved.
+//
+
+#ifndef UrlString_pch
+#define UrlString_pch
+
+#import "UIImageView+WebCache.h"
+#import "CDHttpHelper.h"
+#import "FMDB.h"
+#import "GetDocumentsPathHelper.h"
+#import "FMDBSaveDataHelper.h"
+#import "LoadingView.h"
+
+//头条
+#define headerlineUrlString @"http://box.dwstatic.com/apiNewsList.php?action=l&newsTag=headlineNews&p="
+//头条详情
+#define headerlineDetailUrlString @"http://box.dwstatic.com/apiNewsList.php?action=d&newsId="
+//专题
+#define specialUrlString @"http://box.dwstatic.com/apiNewsList.php?action=topic&topicId="
+//视频详情
+#define videoDetailUrlString @"http://box.dwstatic.com/apiVideoesNormalDuowan.php?action=f&vid="
+//视频页面接口
+#define videoUrlString @"http://box.dwstatic.com/apiNewsList.php?action=l&newsTag=newsVideo&p="
+//赛事页面接口
+#define eventUrlString @"http://box.dwstatic.com/apiNewsList.php?action=l&newsTag=upgradenews&p="
+//分类导航
+#define classifyNavigationUrlString @"http://box.dwstatic.com/apiVideoesNormalDuowan.php?action=c"
+//分类导航详情
+#define classifyNavigationDetailUrlString @"http://box.dwstatic.com/apiVideoesNormalDuowan.php?action=l&tag=%@&p=%ld"
+//百科
+#define cyclopediaUrlString @"http://box.dwstatic.com/apiToolMenu.php?category=database&w=1080&version=250"
+//最佳阵容
+#define bestGroupUrlString @"http://box.dwstatic.com/apiHeroBestGroup.php"
+//英雄胜率榜
+#define rankDataUrlString @"http://lolbox.duowan.com/api/record/championRankData.php?rank="
+//装备列表
+#define equipListUrlString @"http://lolbox.duowan.com/phone/apiZBCategory.php"
+//装备分类
+#define equipCategoryUrlString @"http://lolbox.duowan.com/phone/apiZBItemList.php?tag="
+//装备详情
+#define equipDetailUrlString @"http://lolbox.duowan.com/phone/apiItemDetail.php?id="
+//装备图片
+#define equipPictureUrlString @"http://img.lolbox.duowan.com/zb/%ld_64x64.png"
+//天赋接口
+#define runesUrlString @"http://lolbox.duowan.com/phone/apiRunes.php"
+//天赋图片
+#define runesPictureUrlString @"http://img.lolbox.duowan.com/runes/%@_%ld.png"
+//免费英雄
+#define freeHeroUrlString @"http://lolbox.duowan.com/phone/apiHeroes.php?type=free"
+//全部英雄
+#define allHeroUrlString @"http://lolbox.duowan.com/phone/apiHeroes.php?type=all"
+//英雄列表URL
+#define heroListUrlString @"http://lolbox.duowan.com/phone/apiHeroes.php?type="
+////我的英雄列表URL
+//#define myHeroListUrlString @"http://lolbox.duowan.com/phone/apiMyHeroes.php?serverName=%@&target=%@&v=108"
+//英雄详情URL
+#define heroDetailUrlString @"http://lolbox.duowan.com/phone/apiHeroDetail.php?heroName="
+//英雄图片
+#define heroPictureUrlString @"http://img.lolbox.duowan.com/champions/%@_120x120.jpg"
+//技能图片
+#define heroSkillPictureUrlString @"http://img.lolbox.duowan.com/abilities/%@_64x64.png"
+//玩家查询
+#define searchPlayerUrlString @"http://lolbox.duowan.com/phone/playerSearchNew.php?lolboxAction=toInternalWebView"
+//查询结果页面
+#define searchResultUrlString @"http://zdl.mbox.duowan.com/phone/playerDetailNew.php?sn=%@&target=%@&v=108&OSType=iOS8.4&versionName=2.2.5"
+
+
+#endif /* UrlString_pch */
