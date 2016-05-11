@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "74397B1CA0FD3165633791F1B55D68605A1705E3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a38fb33b-d115-47ac-8783-b48495b74c78++9670" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "74397B1CA0FD3165633791F1B55D68605A1705E3" : 0,
+    "a38fb33b-d115-47ac-8783-b48495b74c78++9670" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2FD83B03-1381-406E-8D21-D9C2E49EA5DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "74397B1CA0FD3165633791F1B55D68605A1705E3" : "LOLVideoPlayer\/",
+    "a38fb33b-d115-47ac-8783-b48495b74c78++9670" : "LOLVideoPlayer\/LOLVideoPlayer\/Classes\/Tools\/Reachability\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LOLVideoPlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LOLVideoPlayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WhiteSeazzZ\/LOLVideoPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "74397B1CA0FD3165633791F1B55D68605A1705E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svnchina.com\/svn\/nuanai",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a38fb33b-d115-47ac-8783-b48495b74c78++9670"
+    }
+  ]
+}
